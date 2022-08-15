@@ -1,3 +1,7 @@
+/* * {
+  outline: 2px solid black;
+} */
+
 html {
   font-family: sans-serif;
 }
@@ -9,6 +13,10 @@ body {
 header {
   background: purple;
   height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
 }
 
 h1 {
@@ -18,10 +26,38 @@ h1 {
   margin: 0;
 }
 
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white
+}
+
 article {
+  flex: 1 300px;
   padding: 10px;
   margin: 10px;
   background: aqua;
 }
 
+article:nth-of-type(2) {
+  flex: 2 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 2em;
+  border: 2px solid red;
+}
+
+article:nth-of-type(2) p {
+  text-align: right;
+}
+
 /* Add your flexbox CSS below here */
+
+section {
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+}
