@@ -1,0 +1,37 @@
+* {
+    ouline: 3px solid black;
+}
+
+button {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    width: 15%;
+    /* flex: 1 350px; */
+    margin: 5px;
+}
+
+div {
+    /* height: 300px; */
+    height: 100px;
+    border: 5px solid red;
+    display: flex;
+    /* justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; */
+}
+
+/* button:nth-of-type(odd) {
+    align-self: flex-start;
+}
+
+button:nth-of-type(even) {
+    align-self: flex-end;
+} */
+
+/* button:nth-of-type(4) {
+    margin-left: auto;
+} */
+
+/* button:nth-of-type(2) {
+    order: 1;
+} */
